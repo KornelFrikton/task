@@ -14,7 +14,7 @@ function App() {
 
   const loginField = isLogged ? "hiddenField" : "loginField";
 
-  const API_URL = "http://localhost:4000/";
+  const API_URL = "https://task-3fpt.onrender.com";
 
   const handleLogin = async (e) => {
     e.preventDefault();
