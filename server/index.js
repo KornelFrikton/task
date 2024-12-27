@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://task-1-vwzp.onrender.com",
 };
 require("dotenv").config();
 const mongoose = require("mongoose");
